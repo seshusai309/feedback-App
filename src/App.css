@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  background-image: linear-gradient(
+    90deg,
+    hsl(0deg 100% 97%) 0%,
+    hsl(0deg 100% 96%) 17%,
+    hsl(1deg 100% 95%) 29%,
+    hsl(1deg 100% 94%) 39%,
+    hsl(2deg 100% 93%) 48%,
+    hsl(2deg 100% 93%) 55%,
+    hsl(2deg 100% 92%) 62%,
+    hsl(3deg 100% 91%) 68%,
+    hsl(3deg 100% 90%) 74%,
+    hsl(3deg 100% 89%) 80%,
+    hsl(4deg 100% 88%) 86%,
+    hsl(4deg 100% 88%) 93%,
+    hsl(4deg 100% 87%) 100%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 50vh;
+  width: 900px;
+
+  padding: 50px 150px 50px 150px;
+}
+
+.heading {
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.heart {
+  align-items: center;
+}
+
+.thank-head {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.para {
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+/* Write your CSS code here. */
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.emoji-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: large;
+}
+
+.btn {
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
